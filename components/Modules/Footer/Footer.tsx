@@ -3,8 +3,8 @@ import React from "react";
 import instagramIcon from "@/public/icons/theme/icons8-instagram-100.png";
 import telegramIcon from "@/public/icons/theme/icons8-telegram-100.png";
 import Image from "next/image";
-import FooterInput from "./FooterInput/FooterInput";
-import { Button, Divider } from "@nextui-org/react";
+import { Divider } from "@nextui-org/react";
+import NewsLetterForm from "./NewsLetterForm/NewsLetterForm";
 
 function Footer() {
   return (
@@ -121,12 +121,7 @@ function Footer() {
             </li>
           </ul>
         </ul>
-        <div className="w-3/4 sm:w-full mx-auto order-4 sm:order-4 col-span-2 sm:col-span-1 flex flex-col gap-5">
-          <FooterInput />
-          <Button className="w-full bg-MainPrimary text-sm text-BtnText flex items-center justify-center text-center py-3">
-            <p>عضویت در خبرنامه</p>
-          </Button>
-        </div>
+        <NewsLetterForm />
       </footer>
       <Divider className="w-[85%] mx-auto bg-black-800 mt-10" />
       <p className="text-center py-5 text-black-800">

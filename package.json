@@ -16,6 +16,7 @@
     "next-themes": "^0.2.1",
     "react": "^18",
     "react-dom": "^18",
+    "react-hook-form": "^7.51.2",
     "react-leaflet": "^4.2.1",
     "react-leaflet-cluster": "^2.1.0",
     "sharp": "^0.33.2",
